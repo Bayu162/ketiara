@@ -49,7 +49,7 @@ if (waForm) {
     e.preventDefault();
     const nama = document.getElementById('wa-nama').value.trim();
     const pesan = document.getElementById('wa-pesan').value.trim();
-    const nomor = '6281234567890'; // TODO: ganti dengan nomor WhatsApp resmi PT KAR
+    const nomor = '6282369597978'; // TODO: ganti dengan nomor WhatsApp resmi PT KAR
     const text = encodeURIComponent(`Halo PT KAR, saya ${nama}. ${pesan}`);
     window.open(`https://wa.me/${nomor}?text=${text}`, '_blank');
   });
